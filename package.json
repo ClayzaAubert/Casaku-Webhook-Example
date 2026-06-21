@@ -1,0 +1,17 @@
+{
+  "name": "webhook-example-express",
+  "version": "1.0.0",
+  "description": "Secure Express.js webhook receiver example with HMAC-SHA256 signature verification",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
