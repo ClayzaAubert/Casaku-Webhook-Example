@@ -1,3 +1,8 @@
+// Casaku Webhook Receiver - Rust (Actix-web)
+//
+// Secure webhook endpoint with HMAC-SHA256 signature verification.
+// Webhook Secret didapatkan dari https://casaku.id → Dashboard → Webhook Developer
+
 use actix_web::{web, App, HttpServer, HttpRequest, HttpResponse, middleware};
 use hmac::{Hmac, Mac};
 use sha2::Sha256;

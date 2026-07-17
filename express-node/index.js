@@ -1,3 +1,10 @@
+/**
+ * Casaku Webhook Receiver - Node.js (Express.js)
+ *
+ * Secure webhook endpoint with HMAC-SHA256 signature verification.
+ * Webhook Secret didapatkan dari https://casaku.id → Dashboard → Webhook Developer
+ */
+
 import express from 'express';
 import dotenv from 'dotenv';
 import crypto from 'crypto';

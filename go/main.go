@@ -1,3 +1,8 @@
+// Casaku Webhook Receiver - Go Example
+//
+// Secure webhook endpoint with HMAC-SHA256 signature verification.
+// Webhook Secret didapatkan dari https://casaku.id → Dashboard → Webhook Developer
+
 package main
 
 import (

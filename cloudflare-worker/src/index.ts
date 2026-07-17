@@ -1,6 +1,8 @@
 /**
  * Casaku Webhook Receiver - Cloudflare Worker (D1 + KV)
  *
+ * Webhook Secret didapatkan dari https://casaku.id → Dashboard → Webhook Developer
+ *
  * - Verifikasi HMAC-SHA256 menggunakan Web Crypto API
  * - Menyimpan payload verified ke D1 database
  * - Deduplikasi via KV (transactionId)

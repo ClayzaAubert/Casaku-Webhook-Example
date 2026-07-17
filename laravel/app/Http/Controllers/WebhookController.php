@@ -1,4 +1,8 @@
 <?php
+/**
+ * Casaku Webhook Receiver - Laravel
+ * Webhook Secret didapatkan dari https://casaku.id → Dashboard → Webhook Developer
+ */
 
 namespace App\Http\Controllers;
 

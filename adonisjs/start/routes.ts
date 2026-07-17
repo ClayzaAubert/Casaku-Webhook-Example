@@ -1,3 +1,9 @@
+/**
+ * Casaku Webhook Receiver - AdonisJS
+ *
+ * Webhook Secret didapatkan dari https://casaku.id → Dashboard → Webhook Developer
+ */
+
 import router from '@adonisjs/core/services/router';
 
 router.post('/webhook', async ({ request, response }) => {

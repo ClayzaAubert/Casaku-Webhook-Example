@@ -1,3 +1,9 @@
+/**
+ * Casaku Webhook Receiver - NestJS
+ *
+ * Webhook Secret didapatkan dari https://casaku.id → Dashboard → Webhook Developer
+ */
+
 import {
   Controller,
   Post,

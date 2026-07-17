@@ -1,11 +1,13 @@
 /**
  * Casaku Webhook Receiver - AWS Lambda (API Gateway / Function URL)
  *
+ * Webhook Secret didapatkan dari https://casaku.id → Dashboard → Webhook Developer
+ *
  * Deploy:
  *   zip -r function.zip index.mjs
  *   aws lambda create-function --function-name casaku-webhook --runtime nodejs22.x \
  *     --handler index.handler --zip-file fileb://function.zip
- *   # Set env WEBHOOK_SECRET di Lambda console
+ *   # Set env WEBHOOK_SECRET dari https://casaku.id di Lambda console
  *   # Integrasikan dengan API Gateway HTTP atau Function URL
  */
 

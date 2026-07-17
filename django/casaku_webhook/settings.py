@@ -14,6 +14,7 @@ INSTALLED_APPS = [
 ROOT_URLCONF = 'casaku_webhook.urls'
 WSGI_APPLICATION = 'casaku_webhook.wsgi.application'
 
+# Dapatkan Webhook Secret dari https://casaku.id → Dashboard → Webhook Developer
 WEBHOOK_SECRET = os.environ.get(
     'WEBHOOK_SECRET',
     'casaku_sec_ganti_dengan_secret_anda_dari_dashboard',

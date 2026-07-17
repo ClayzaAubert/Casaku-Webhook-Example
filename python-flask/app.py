@@ -2,6 +2,7 @@
 Casaku Webhook Receiver - Python Flask Example
 
 Secure webhook endpoint with HMAC-SHA256 signature verification.
+Webhook Secret didapatkan dari https://casaku.id → Dashboard → Webhook Developer
 
 Usage:
     export WEBHOOK_SECRET=casaku_sec_ganti_dengan_secret_anda_dari_dashboard

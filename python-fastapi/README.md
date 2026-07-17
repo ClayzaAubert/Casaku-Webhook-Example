@@ -19,6 +19,10 @@ uvicorn main:app --host 0.0.0.0 --port 8080
 
 Server akan aktif di `http://localhost:8080` dan menerima POST di `/webhook`.
 
+## Webhook Secret
+
+Dapatkan **Webhook Secret** dari **[Dashboard Casaku](https://casaku.id)** → menu **Webhook Developer** / **API Keys**.
+
 ## Struktur File
 
 ```

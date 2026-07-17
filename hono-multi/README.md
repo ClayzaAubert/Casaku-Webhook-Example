@@ -29,6 +29,10 @@ npm run dev:deno
 npx wrangler deploy src/index.ts
 ```
 
+## Webhook Secret
+
+Dapatkan **Webhook Secret** dari **[Dashboard Casaku](https://casaku.id)** → menu **Webhook Developer** / **API Keys**.
+
 ## Struktur File
 
 ```

@@ -1,8 +1,17 @@
 # Casaku Webhook Example
 
+[![Casaku](https://img.shields.io/badge/Casaku-Webhook-8A2BE2)](https://casaku.id)
+
 Kumpulan contoh implementasi server penerima **Webhook Casaku** dengan verifikasi signature **HMAC-SHA256** di berbagai bahasa dan platform.
 
-> **Webhook Callback** — Notifikasi otomatis saat transaksi lunas. Casaku mengirim `HTTP POST` ke URL webhook Anda dalam hitungan detik setelah transaksi terverifikasi lunas. Setiap payload ditandatangani dengan **HMAC-SHA256** menggunakan **Webhook Secret** Anda. Retry otomatis hingga **3 kali** jika server tidak merespons dalam **10 detik**.
+> **Webhook Callback** — Notifikasi otomatis saat transaksi lunas. [Casaku](https://casaku.id) mengirim `HTTP POST` ke URL webhook Anda dalam hitungan detik setelah transaksi terverifikasi lunas. Setiap payload ditandatangani dengan **HMAC-SHA256** menggunakan **Webhook Secret** Anda. Retry otomatis hingga **3 kali** jika server tidak merespons dalam **10 detik**.
+
+## Mendapatkan Webhook Secret
+
+1. Buka **[https://casaku.id](https://casaku.id)** dan login ke akun Anda
+2. Masuk ke menu **Dashboard** → **Webhook Developer** / **API Keys**
+3. Salin **Webhook Secret** (biasanya diawali `casaku_sec_...`)
+4. Gunakan secret tersebut sebagai environment variable `WEBHOOK_SECRET` di server Anda
 
 ## Daftar Implementasi
 
@@ -120,6 +129,8 @@ Verifikasi keaslian webhook dengan **HMAC-SHA256**:
 4. **Bandingkan constant-time** — Gunakan `timingSafeEqual` (Node.js), `hash_equals` (PHP), `hmac.compare_digest` (Python), `hmac.Equal` (Go), atau `crypto.subtle.verify` (Web Crypto). Jangan gunakan `==` biasa (rentan timing attack).
 
 ## Pengujian Lokal dengan Ngrok
+
+> **Catatan**: Webhook Secret didapatkan dari **[Dashboard Casaku](https://casaku.id)** → menu **Webhook Developer** / **API Keys**.
 
 ```bash
 # Pilih salah satu contoh, misal Express:

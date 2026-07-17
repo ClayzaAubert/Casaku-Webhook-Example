@@ -17,6 +17,10 @@ cp .env.example .env
 node ace serve
 ```
 
+## Webhook Secret
+
+Dapatkan **Webhook Secret** dari **[Dashboard Casaku](https://casaku.id)** → menu **Webhook Developer** / **API Keys**.
+
 ## Endpoint
 
 `POST /webhook`

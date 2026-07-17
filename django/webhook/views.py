@@ -1,3 +1,8 @@
+"""
+Casaku Webhook Receiver - Django
+Webhook Secret didapatkan dari https://casaku.id → Dashboard → Webhook Developer
+"""
+
 import json
 import hmac
 import hashlib

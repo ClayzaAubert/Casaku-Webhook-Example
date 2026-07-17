@@ -40,6 +40,10 @@ public class WebhookController : ControllerBase
 }
 ```
 
+## Webhook Secret
+
+Dapatkan **Webhook Secret** dari **[Dashboard Casaku](https://casaku.id)** → menu **Webhook Developer** / **API Keys**.
+
 ## Cara Menjalankan
 
 ```bash

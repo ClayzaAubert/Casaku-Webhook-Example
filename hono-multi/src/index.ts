@@ -1,6 +1,8 @@
 /**
  * Casaku Webhook Receiver - Hono (Multi-Runtime)
  *
+ * Webhook Secret didapatkan dari https://casaku.id → Dashboard → Webhook Developer
+ *
  * Berjalan di: Node.js, Bun, Deno, Cloudflare Workers
  * Tidak ada dependency eksternal untuk HMAC — pakai Web Crypto API.
  */

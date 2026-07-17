@@ -3,6 +3,7 @@
  * Casaku Webhook Receiver - PHP Example
  *
  * Secure webhook endpoint with HMAC-SHA256 signature verification.
+ * Webhook Secret didapatkan dari https://casaku.id → Dashboard → Webhook Developer
  * 
  * Usage: php -S localhost:8080 index.php
  * Then configure your Casaku webhook to POST to http://localhost:8080/webhook

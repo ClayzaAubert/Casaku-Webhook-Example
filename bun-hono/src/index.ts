@@ -1,6 +1,8 @@
 /**
  * Casaku Webhook Receiver - Bun + Hono
  *
+ * Webhook Secret didapatkan dari https://casaku.id → Dashboard → Webhook Developer
+ *
  * Fitur:
  * - Verifikasi HMAC-SHA256 via Web Crypto API
  * - Logger terstruktur

@@ -55,6 +55,10 @@ npx wrangler secret put WEBHOOK_SECRET
 npm run deploy
 ```
 
+## Webhook Secret
+
+Dapatkan **Webhook Secret** dari **[Dashboard Casaku](https://casaku.id)** → menu **Webhook Developer** / **API Keys**.
+
 ## Struktur File
 
 ```

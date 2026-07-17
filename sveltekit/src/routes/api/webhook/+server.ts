@@ -1,6 +1,8 @@
 /**
  * Casaku Webhook Receiver - SvelteKit
  *
+ * Webhook Secret didapatkan dari https://casaku.id → Dashboard → Webhook Developer
+ *
  * Endpoint: POST /api/webhook
  *
  * Jalankan: npm run dev

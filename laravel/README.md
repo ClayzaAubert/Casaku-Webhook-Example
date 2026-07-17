@@ -18,6 +18,10 @@ cp .env.example .env
 php artisan serve
 ```
 
+## Webhook Secret
+
+Dapatkan **Webhook Secret** dari **[Dashboard Casaku](https://casaku.id)** → menu **Webhook Developer** / **API Keys**.
+
 ## Endpoint
 
 `POST /webhook`

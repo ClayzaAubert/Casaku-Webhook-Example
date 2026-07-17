@@ -1,6 +1,8 @@
 /**
  * Casaku Webhook Receiver - Fastify
  *
+ * Webhook Secret didapatkan dari https://casaku.id → Dashboard → Webhook Developer
+ *
  * Verifikasi HMAC-SHA256 dengan raw body preservation.
  */
 

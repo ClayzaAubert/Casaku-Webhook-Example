@@ -1,11 +1,14 @@
 /**
  * Casaku Webhook Receiver - Next.js App Router
  *
+ * Webhook Secret didapatkan dari https://casaku.id → Dashboard → Webhook Developer
+ *
  * Endpoint: POST /api/webhook
  *
  * Setup:
- *   1. Set env: WEBHOOK_SECRET=casaku_sec_xxx
- *   2. Deploy ke Vercel atau self-host
+ *   1. Dapatkan Webhook Secret dari https://casaku.id
+ *   2. Set env: WEBHOOK_SECRET=casaku_sec_xxx
+ *   3. Deploy ke Vercel atau self-host
  */
 
 import { NextRequest, NextResponse } from 'next/server';

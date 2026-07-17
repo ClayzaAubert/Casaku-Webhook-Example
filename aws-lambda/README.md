@@ -32,6 +32,10 @@ Buat **HTTP API** di API Gateway, integrasikan dengan Lambda, deploy ke `$defaul
 
 Endpoint: `POST /webhook`
 
+## Webhook Secret
+
+Dapatkan **Webhook Secret** dari **[Dashboard Casaku](https://casaku.id)** → menu **Webhook Developer** / **API Keys**. Set sebagai environment variable `WEBHOOK_SECRET` di Lambda.
+
 ## Struktur File
 
 ```
