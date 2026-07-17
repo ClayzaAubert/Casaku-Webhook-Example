@@ -1,0 +1,19 @@
+name = "casaku-webhook-worker"
+main = "src/index.ts"
+compatibility_date = "2026-07-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Webhook Secret (gunakan secrets: wrangler secret put WEBHOOK_SECRET)
+# [vars]
+# WEBHOOK_SECRET = "casaku_sec_ganti_dengan_secret_anda_dari_dashboard"
+
+# D1 Database (untuk menyimpan riwayat webhook)
+[[d1_databases]]
+binding = "DB"
+database_name = "casaku-webhooks"
+database_id = "<ISI_DATABASE_ID_DARI_DASHBOARD>"
+
+# KV Namespace (opsional, untuk rate limiting / dedup)
+[[kv_namespaces]]
+binding = "WEBHOOK_KV"
+id = "<ISI_KV_ID_DARI_DASHBOARD>"

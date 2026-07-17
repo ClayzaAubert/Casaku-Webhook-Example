@@ -1,0 +1,8 @@
+{
+  "name": "casaku/webhook-example-php",
+  "description": "Secure PHP webhook receiver example for Casaku with HMAC-SHA256 signature verification",
+  "type": "project",
+  "require": {
+    "php": ">=8.1"
+  }
+}
